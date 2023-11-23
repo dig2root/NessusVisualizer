@@ -1,5 +1,5 @@
 # NessusVisualizer
-A plotly web app to visualise Nessus report.
+A plotly dash web app to visualise Nessus report.
 
 ## Setup locally
 
@@ -26,5 +26,5 @@ Dash is running on http://127.0.0.1:8050/
 
 ```
 $ docker build -t nessus_visualizer:0.1.0 .
-$ docker run -p 80:8000 nessus_visualizer:0.1.0 .
+$ docker run -p 80:8050 nessus_visualizer:0.1.0 .
 ```
